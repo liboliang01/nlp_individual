@@ -1,0 +1,27 @@
+{
+  "history": [
+    {
+      "prompt": "premise: {premise} hypothesis: {hypothesis} What is the relationship?</s>",
+      "accuracy": 0.6
+    },
+    {
+      "prompt": "Given that '{premise}', is it true that '{hypothesis}'? Determine if it is entailment, contradiction, or neutral.</s>",
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "prompt": "Does '{hypothesis}' logically follow from '{premise}'?</s>",
+      "accuracy": 0.41
+    },
+    {
+      "prompt": "Classify the relationship between these two sentences: '{premise}' and '{hypothesis}'.</s>",
+      "accuracy": 0.4066666666666667
+    },
+    {
+      "prompt": "Analyze: If '{premise}', then '{hypothesis}'? Categorize as entailment, contradiction, or neutral.</s>",
+      "accuracy": 0.3
+    }
+  ],
+  "model_name": "T5",
+  "best_accuracy": 0.6,
+  "best_prompt": "premise: {premise} hypothesis: {hypothesis} What is the relationship?</s>"
+}
